@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>227.99996948242188</real>
-						<real>106</real>
+						<real>227.37446594238281</real>
+						<real>107.21007537841797</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -267,8 +267,6 @@
 					<real>1000</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -424,8 +422,8 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>0.0</real>
-											<real>0.0</real>
+											<real>0.94537335634231567</real>
+											<real>-2.4752700328826904</real>
 										</array>
 										<array>
 											<real>0.0</real>
@@ -436,16 +434,16 @@
 											<real>177</real>
 										</array>
 										<array>
-											<real>42</real>
-											<real>0.0</real>
+											<real>36.284111022949219</real>
+											<real>105.83690643310547</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>42</real>
-												<real>0.0</real>
+												<real>36.284111022949219</real>
+												<real>105.83690643310547</real>
 											</array>
 											<array>
 												<real>42</real>
@@ -456,8 +454,8 @@
 												<real>177</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>0.0</real>
+												<real>0.94537335634231567</real>
+												<real>-2.4752700328826904</real>
 											</array>
 										</array>
 									</array>
@@ -504,8 +502,8 @@
 										<string>ScaleLock</string>
 										<key>value</key>
 										<array>
-											<real>1</real>
-											<real>1</real>
+											<real>1.0481150150299072</real>
+											<real>0.98777705430984497</real>
 											<false/>
 											<integer>0</integer>
 										</array>
@@ -535,6 +533,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
