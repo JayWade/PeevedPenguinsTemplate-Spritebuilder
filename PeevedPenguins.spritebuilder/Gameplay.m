@@ -29,6 +29,7 @@
 //		// visualize physics bodies & joints
 //	_physicsNode.debugDraw = TRUE;
 	_mouseJointNode.physicsBody.collisionMask = @[];
+	_physicsNode.collisionDelegate = self;
 }
 
 -(void) touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
@@ -113,7 +114,13 @@
 		// ensure followed object is in visible are when starting
 	self.position = ccp(0, 0);
 	CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-	[_contentNode runAction:follow];}
+	[_contentNode runAction:follow];
+}
+
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
+{
+	CCLOG(@"Something collided with a seal!");
+}
 
 - (void)retry {
 		// reload this level
